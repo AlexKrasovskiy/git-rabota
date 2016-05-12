@@ -1,3 +1,3 @@
-/**
- * Created by Best on 12.05.2016.
- */
+var data = new Date();
+alert (data);
+
