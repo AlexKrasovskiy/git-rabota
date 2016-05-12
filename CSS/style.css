@@ -1,0 +1,18 @@
+body, html {
+    margin-top: 10%;
+    margin-left: 21%;
+    font-family: "Century Gothic";
+    font-size: 13px;
+}
+
+.class_input {
+    width: 70px;
+    padding: 2px;
+}
+
+
+span {
+    font-size: 14px;
+    font-weight: 600;
+    color: red;
+}
