@@ -1,0 +1,11 @@
+p {
+    font-family: "Century Gothic";
+}
+button {
+    background-color: #ff004e;
+    border-radius: 8px;
+    width: 250px;
+    height: 80px;
+    text-align: center;
+    font-family: "Century Gothic";
+}
