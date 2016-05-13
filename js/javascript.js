@@ -1,3 +1,5 @@
-/**
- * Created by Best on 12.05.2016.
- */
+function alphabet(str)
+{
+    return str.split('').sort().join('');
+}
+document.write(alphabet("Алексей"));
