@@ -1,1 +1,3 @@
-#git-rabota
+#Write a JavaScript function to compute the factors of a positive integer.
+
+*Находим положительное число.
