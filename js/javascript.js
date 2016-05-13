@@ -1,15 +1,17 @@
-function long_word(str)
+function vowel (str)
 {
-    var array = str.match(/\w[a-z]{0,}/gi); 
-    var result = array[0];
+    var vowel_words = 'aeiouAEIOU';
+    var vowels = 0;
 
-    for(var x = 1 ; x < array.length ; x++)
+    for(var x = 0; x <str.length ; x++)
     {
-        if(result.length < array[x].length)
+        if (vowel_words.indexOf(str[x]) !== -1)
         {
-            result = array[x];
+            vowels += 1;
         }
+
     }
-    return result;
+    return vowels;
 }
-document.write(long_word('Give me pls looooooooongword'));
+document.write('Вывод гласных букв:   ')
+document.write(vowel("Test vowel"));

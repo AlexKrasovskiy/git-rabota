@@ -1,3 +1,3 @@
-#Write a JavaScript function that accepts a string as a parameter and find the longest word within the string
+#Write a JavaScript function that accepts a string as a parameter and counts the number of vowels within the string.
 
-*Оставляет самое длинное слово в строке.
+*Делаем подсчет гласный букв.
