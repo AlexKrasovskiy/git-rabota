@@ -1,6 +1,9 @@
-function chars_num(str) {
-    var chars = {};
-    str.replace(/\S/g, function (l) {chars[l] = (isNaN(chars[l]) ? 1 : chars[l] + 1);});
-    return chars;
+function numbers(val)
+{
+    return function(evalue)
+    {
+        return (evalue >= val);
+    };
 }
-console.log(chars_num("Test"));
+var result = [66, 55, 44, 33, 22, 10]. filter(numbers(44));
+document.write(result);

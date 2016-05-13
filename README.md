@@ -1,3 +1,3 @@
-#Write a JavaScript function to get the number of occurrences of each letter in specified string.
+#Write a JavaScript function that returns array elements larger than a number.
 
-*Идет подсчет букв. Вывод в консоле.
+*Оставляет лишь те цифры, которые указаны до фильтра.
